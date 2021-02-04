@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0; }
+
+:focus, :active {
+    outline: none; }
+a:focus, a:active {
+    outline: none; }
+input, button, textarea {
+    font-family: inherit; }
+input::-ms-clear {
+    display: none; }
+button {
+    cursor: pointer; }
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+a, a:visited {
+    text-decoration: none; }
+a:hover {
+    text-decoration: none; }
+ul li {
+    list-style: none; }
+img {
+    vertical-align: top; }
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit; }
+
+.greeting {
+    margin-left: 30px;
+    width: 500px;
+    height: 150px;
+    font-size: 18px;
+    box-shadow: 0 0 4px black;
+    position: relative;
+}
+
+.greeting input {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    left: 40px;
+    top: 20px;
+}
+
+.greeting input:hover {
+   box-shadow: 0 0 5px #1155cd;
+}
+
+.greeting input:focus {
+    box-shadow: 0 0 5px #1155cd;
+    border: 1px solid #1155cd;
+}
+
+.greeting button {
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.greeting button:hover {
+    box-shadow: 0 0 5px #1155cd;
+}
+
+.greeting button:active {
+    border: 1px solid #1155cd;
+}
+
+.ERROR {
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    color: red;
+}
+
+.greeting span:last-child {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 54px;
+    border-bottom: 1px solid silver;
+    color: rgba(117, 123, 117, 1);
+}
+
+.greeting span:last-child:hover {
+    color: black;
+}
+
+.errorInput {
+    border: 1px solid red;
+}
+
+.defaultInput {
+    border: 1px solid black;
+}

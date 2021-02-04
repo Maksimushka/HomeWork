@@ -1,0 +1,51 @@
+.affairs {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.affairs a {
+    cursor: default;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid silver;
+}
+
+.affairs a:hover {
+    background-color: silver;
+}
+
+.affair {
+    position: relative;
+    margin-bottom: 2px;
+    width: 300px;
+    height: 40px;
+}
+
+.affair:hover {
+    box-shadow: 0 0 2px black;
+}
+
+.affair button {
+    display: none;
+}
+
+.affair:hover button {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.affair span {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+.filter {
+    margin-top: 30px;
+}
+

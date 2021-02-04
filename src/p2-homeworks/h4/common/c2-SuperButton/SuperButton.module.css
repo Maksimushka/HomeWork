@@ -1,0 +1,27 @@
+.default {
+    color: #000;
+    background: white;
+    padding: .4em 1.5em;
+    box-shadow: 0 0 1px black;
+    margin-bottom: 10px;
+}
+
+.default:hover {
+    background: silver;
+}
+.default:active {
+    background: white;
+}
+
+.error {
+    color: #fff;
+    background: rgb(212,75,56);
+    padding: .4em 1.5em;
+    margin-bottom: 10px;
+}
+.error:hover {
+    background: rgb(232,95,76);
+}
+.error:active {
+    background: rgb(152,15,0);
+}
