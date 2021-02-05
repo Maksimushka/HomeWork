@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    background-color: #406fe9;
+    height: 50px;
+    color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 1000;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.buttonMenu {
+    background-color: #406FE9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    padding-left: 22px;
+}
+
+.bar {
+    display: none;
+    background-color: #406FE9;
+    min-width: 200px;
+}
+
+.navLink:hover {
+    background-color: #6d91ee;
+}
+
+.bar .navLink {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.menu:hover .bar {
+    display: block;
+}
+
+
+h1 {
+    position: absolute;
+    top: 8px;
+    left: 670px;
+    font-size: 30px;
+}

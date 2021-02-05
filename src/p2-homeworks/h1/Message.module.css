@@ -1,3 +1,54 @@
 .message {
-
+    background-color: blanchedalmond;
 }
+
+.body_message {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    position: relative;
+    margin-left: 15px;
+    background-color: #023;
+    border-radius: 8px;
+}
+
+.body_message:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #023;
+    border-left: 20px solid transparent;
+    position: absolute;
+    left: -9px;
+    bottom: 0;
+}
+
+.img__message {
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.name_body_message {
+    top: 2px;
+    left: 10px;
+    position: absolute;
+    color: aqua;
+}
+
+.message_body_message {
+    position: absolute;
+    color: white;
+    bottom: 7px;
+    left: 10px;
+}
+
+.time_body_message {
+    bottom: 3px;
+    right: 7px;
+    position: absolute;
+    color: grey;
+}
+
