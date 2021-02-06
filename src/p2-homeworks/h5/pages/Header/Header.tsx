@@ -8,13 +8,13 @@ function Header() {
             <div className={s.menu}>
                 <button className={s.buttonMenu}>Menu</button>
                 <div className={s.bar}>
-                    <NavLink className={s.navLink} to="/pre-junior">
+                    <NavLink activeClassName={s.active} className={s.navLink} to="/pre-junior">
                         <div>PreJunior</div>
                     </NavLink>
-                    <NavLink className={s.navLink} to="/junior">
+                    <NavLink activeClassName={s.active} className={s.navLink} to="/junior">
                         <div>Junior</div>
                     </NavLink>
-                    <NavLink className={s.navLink} to="/junior+">
+                    <NavLink activeClassName={s.active} className={s.navLink} to="/junior+">
                         <div>JuniorPlus</div>
                     </NavLink>
                 </div>

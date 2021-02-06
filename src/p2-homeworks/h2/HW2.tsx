@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Affairs from "./Affairs";
+import s from "./Affairs.module.css"
 
 // types
 export type AffairPriorityType = "high" | "low" | "middle"
@@ -43,9 +44,9 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id));
 
     return (
-        <div>
-            <hr/>
-            homeworks 2
+        <div className={s.main}>
+
+            <h3>Homeworks 2:</h3>
 
             {/*should work (должно работать)*/}
             <Affairs

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import GreetingContainer from "./GreetingContainer";
 import { v1 } from "uuid";
+import s from "./Greeting.module.css"
 
 // types
 export type UserType = {
@@ -17,9 +18,9 @@ function HW3() {
         setUsers([newUser, ...users])
     }
     return (
-        <div>
+        <div className={s.main}>
             <hr/>
-            homeworks 3
+            <h3>Homeworks 3:</h3>
 
             <GreetingContainer
                 users={users}

@@ -1,5 +1,12 @@
+.main {
+    margin: 23px 0;
+    padding: 10px 30px;
+    border-bottom: 1px solid black;
+}
+
 .message {
-    background-color: blanchedalmond;
+    margin: 23px 0;
+    width: 500px;
 }
 
 .body_message {

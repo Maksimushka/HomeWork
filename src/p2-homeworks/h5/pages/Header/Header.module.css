@@ -18,9 +18,12 @@
     color: white;
     border: none;
     cursor: pointer;
-    padding: 15px;
-    padding-left: 22px;
+    padding: 15px 15px 15px 15px;
+    border-right: 1px solid white;
+    height: 50px;
 }
+
+
 
 .bar {
     display: none;
@@ -29,7 +32,7 @@
 }
 
 .navLink:hover {
-    background-color: #6d91ee;
+    background-color: #688ae9;
 }
 
 .bar .navLink {
@@ -48,4 +51,8 @@ h1 {
     top: 8px;
     left: 670px;
     font-size: 30px;
+}
+
+.active {
+    background-color: #688ae9;
 }
