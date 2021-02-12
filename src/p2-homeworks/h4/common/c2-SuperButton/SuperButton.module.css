@@ -1,4 +1,5 @@
 .default {
+    min-width: 80px;
     color: #000;
     background: white;
     padding: .4em 1.5em;
@@ -14,6 +15,7 @@
 }
 
 .error {
+    min-width: 80px;
     color: #fff;
     background: rgb(212,75,56);
     padding: .4em 1.5em;
