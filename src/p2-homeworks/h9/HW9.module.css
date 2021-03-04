@@ -1,0 +1,18 @@
+.main {
+    width: 600px;
+    height: 400px;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.time {
+    font-size: 86px;
+    width:  330px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.date {
+    font-size: 26px;
+}
