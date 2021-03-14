@@ -1,0 +1,19 @@
+.loaderBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    margin-bottom: 30px;
+}
+
+.loader {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
