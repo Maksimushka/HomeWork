@@ -28,15 +28,18 @@ const SuperRange: React.FC<SuperRangePropsType> = (
     const finalRangeClassName = `${s.range} ${className ? className : ""}`;
 
     return (
-        <>
+        <div className={s.rangeBlock}>
+            <div className={s.start}>0</div>
             <input
+                id={'fader'}
                 type={"range"}
                 onChange={onChangeCallback}
                 className={finalRangeClassName}
 
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />
-        </>
+            <div className={s.end}>100</div>
+        </div>
     );
 }
 

@@ -35,7 +35,7 @@ function HW8() {
     return (
         <div className='block'>
             <hr/>
-
+            <h2>homeworks 8</h2>
             {/*should work (должно работать)*/}
             <div className='list'>
                 {finalPeople}

@@ -1,0 +1,23 @@
+.mainBlock {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.rangeBlock {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 320px;
+}
+
+.value {
+    display: block;
+    padding: 10px;
+    width: 25px;
+}
