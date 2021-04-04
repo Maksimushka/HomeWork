@@ -3,7 +3,7 @@ import { Switch, Redirect, Route } from "react-router-dom";
 import Error404 from "./pages/Error/Error404";
 import PreJunior from "./pages/PreJunior/PreJunior";
 import Junior from "./pages/Junior";
-import JuniorPlus from "./pages/JuniorPlus";
+import JuniorPlus from "./pages/JuniorPlus/JuniorPlus";
 
 export const PATH = {
     PRE_JUNIOR: "/pre-junior",
